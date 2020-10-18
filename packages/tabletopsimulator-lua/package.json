@@ -1,0 +1,75 @@
+{
+  "_from": "https://www.atom.io/api/packages/tabletopsimulator-lua/versions/12.4.1/tarball",
+  "_id": "tabletopsimulator-lua@12.4.1",
+  "_inBundle": false,
+  "_integrity": "sha512-3olus5QG/iTrvljHw9iL387qHQh7Lh0+iVUvP27LZOqpxjBRaCN7rX2iHBAPC7h/nIheJ/jgFNabdzxmC22F7Q==",
+  "_location": "/tabletopsimulator-lua",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/tabletopsimulator-lua/versions/12.4.1/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/tabletopsimulator-lua/versions/12.4.1/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/tabletopsimulator-lua/versions/12.4.1/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/tabletopsimulator-lua/versions/12.4.1/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/tabletopsimulator-lua/versions/12.4.1/tarball",
+  "_shasum": "c83d58b2600207c1077f05f0a06fbe7dd2bcb285",
+  "_spec": "https://www.atom.io/api/packages/tabletopsimulator-lua/versions/12.4.1/tarball",
+  "_where": "C:\\Users\\tyler\\AppData\\Local\\Temp\\apm-install-dir-2020826-18596-1ohixxe.x4sm",
+  "bugs": {
+    "url": "https://github.com/Knils/atom-tabletopsimulator-lua/issues"
+  },
+  "bundleDependencies": false,
+  "consumedServices": {
+    "status-bar": {
+      "versions": {
+        "^1.0.0": "consumeStatusBar"
+      }
+    }
+  },
+  "dependencies": {
+    "atom-space-pen-views": "^2.0.0",
+    "luabundle": "^1.6.0",
+    "mkdirp": "~0.5.1",
+    "moonsharp-luaparse": "^0.2.4",
+    "q": "^1.5.1",
+    "space-pen": "^5.1.1"
+  },
+  "deprecated": false,
+  "description": "Official plugin for Tabletop Simulator's Lua Scripting.",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/Knils/atom-tabletopsimulator-lua#readme",
+  "keywords": [
+    "tabletop",
+    "simulator",
+    "tabletop simulator",
+    "tabletopsimulator",
+    "lua"
+  ],
+  "license": "MIT",
+  "main": "./lib/tabletopsimulator-lua",
+  "name": "tabletopsimulator-lua",
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "2.0.0": "getProvider"
+      }
+    },
+    "linter": {
+      "versions": {
+        "2.0.0": "provideLinter"
+      }
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Knils/atom-tabletopsimulator-lua.git"
+  },
+  "version": "12.4.1"
+}

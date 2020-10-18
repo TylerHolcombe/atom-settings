@@ -1,0 +1,17 @@
+"*":
+  "atom-beautify":
+    css:
+      beautify_on_save: true
+    html:
+      beautify_on_save: true
+    typescript:
+      beautify_on_save: true
+  core:
+    telemetryConsent: "no"
+    uriHandlerRegistration: "always"
+  editor:
+    preferredLineLength: 150
+  "exception-reporting":
+    userId: "fa4de68d-d3fe-43a3-b3d5-f680784af7d5"
+  welcome:
+    showOnStartup: false

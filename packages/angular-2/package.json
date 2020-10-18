@@ -1,0 +1,70 @@
+{
+  "_from": "https://www.atom.io/api/packages/angular-2/versions/0.2.6/tarball",
+  "_id": "angular-2@0.2.6",
+  "_inBundle": false,
+  "_integrity": "sha512-Y3LzPgEWQ3FARZpVOSB+4FGGILNNd5UAwbJzkub1hGpxDfZhu5altOS7QodiDRkGVsHmp0I31CoYLxekLw2BkQ==",
+  "_location": "/angular-2",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/angular-2/versions/0.2.6/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/angular-2/versions/0.2.6/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/angular-2/versions/0.2.6/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/angular-2/versions/0.2.6/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/angular-2/versions/0.2.6/tarball",
+  "_shasum": "d73fe82defd984cb119a1cb34b5bbdf25078cb3d",
+  "_spec": "https://www.atom.io/api/packages/angular-2/versions/0.2.6/tarball",
+  "_where": "C:\\Users\\tyler\\AppData\\Local\\Temp\\apm-install-dir-2020419-17736-1eeeew6.3k6a",
+  "author": {
+    "name": "Madhusudhan Dollu"
+  },
+  "bugs": {
+    "url": "https://github.com/madhusudhand/atom-angular2/issues"
+  },
+  "bundleDependencies": false,
+  "consumedServices": {
+    "status-bar": {
+      "versions": {
+        "^1.0.0": "consumeStatusBar"
+      }
+    }
+  },
+  "dependencies": {
+    "js-module-indexer": "^0.0.4",
+    "lodash": "^4.16.3",
+    "typescript": "^2.1.4"
+  },
+  "deprecated": false,
+  "description": "A complete package for Angular 2 app development. [BETA]",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/madhusudhand/atom-angular2#readme",
+  "keywords": [
+    "atom",
+    "angular2"
+  ],
+  "license": "MIT",
+  "main": "./lib/index",
+  "name": "angular-2",
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "3.0.0": "getProvider"
+      }
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/madhusudhand/atom-angular2.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.2.6"
+}
